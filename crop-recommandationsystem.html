@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crop Recommendation Project</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #e9f5ec, #ffffff);
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #ffffff;
+      padding: 3rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 0.8s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      color: #2e7d32;
+      position: relative;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    h2::after {
+      content: "";
+      width: 60px;
+      height: 4px;
+      background: #28a745;
+      display: block;
+      margin-top: 8px;
+      border-radius: 2px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+
+    ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #28a745;
+      font-weight: bold;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 2rem;
+      background: #28a745;
+      color: #fff;
+      padding: 0.6rem 1.2rem;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .back-btn:hover {
+      background: #1e6d2b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Crop Recommendation System using ML and IoT</h2>
+    <ul>
+      <li>Developed a web-based system using ML and IoT technologies.</li>
+      <li>Integrated IoT sensors for real-time monitoring of soil and climate parameters.</li>
+      <li>Analyzed collected data to suggest optimal crops using ML models.</li>
+      <li>Boosted crop yield and sustainability through smart recommendations.</li>
+      <li>Designed an interactive frontend with HTML, CSS, and JavaScript.</li>
+      <li>Used Flask backend to handle logic, ML models, and data processing.</li>
+      <li>Empowered farmers with real-time, data-driven farming insights.</li>
+    </ul>
+    <a class="back-btn" href="index.html">← Back to Portfolio</a>
+  </div>
+</body>
+</html>
